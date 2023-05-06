@@ -47,7 +47,7 @@ void __mpAng (unsigned char ang, unsigned char sentido, unsigned char passo )   
     while (contaPulsos!=0)
     {
         __mpPulse();          //gera pulso no DRV8825/A4988
-        contaPulsos--;      //Decrementa vslor
+        contaPulsos--;      //Decrementa valor
         vTaskDelay(1);
 
     }
